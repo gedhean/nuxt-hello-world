@@ -8,7 +8,7 @@
 export default {
   head() {
     return {
-      titleTemplate: '%s - Create',
+      titleTemplate: '%s - Create Event',
       meta: [
         {
           hid: 'description',
