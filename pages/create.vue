@@ -1,6 +1,6 @@
 <template>
-  <div class="index">
-    Hello World Nuxt.js
+  <div class="create">
+    <h1>Create Page</h1>
   </div>
 </template>
 
@@ -8,12 +8,12 @@
 export default {
   head() {
     return {
-      titleTemplate: '%s - by Gêdhean',
+      titleTemplate: '%s - Create',
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: 'Learning Nuxt.js by practicing.'
+          content: 'Create awesome stuff with Nuxt.js!'
         }
       ]
     }
